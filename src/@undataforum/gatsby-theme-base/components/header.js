@@ -7,6 +7,7 @@ const ShadowedHeader = props => (
     {...props}
     logo={() => <Logo height="100%" mr={[2, 3]} />}
     links={[
+      { text: 'Programme', href: '/programme/' },
       { text: 'Blog', href: '/blog/' },
       { text: 'Profiles', href: '/profiles/' },
     ]}
