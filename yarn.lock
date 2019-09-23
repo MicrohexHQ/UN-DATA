@@ -1463,19 +1463,6 @@
     lodash.unescape "4.0.1"
     semver "5.5.0"
 
-"@undataforum/components@^0.40.0":
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.40.0.tgz#bc0c1fb74b2244864ba250489f4ff102c2d3f551"
-  integrity sha512-DjYS6M52hwKRzrCLg+BRhGAWzBW+7cXvGQ+1bvNS4LKaXriFrDus9nxW++XMgLnBPGPO0McANhTl3WSVRNrFKw==
-  dependencies:
-    "@styled-system/theme-get" "^5.0.6"
-    compare-urls "^2.0.0"
-    prism-react-renderer "^0.1.6"
-    prop-types "^15.7.2"
-    react-helmet "^5.2.0"
-    rebass "^3.1.1"
-    styled-system "^5.0.16"
-
 "@undataforum/components@^0.42.0":
   version "0.42.0"
   resolved "https://registry.yarnpkg.com/@undataforum/components/-/components-0.42.0.tgz#d8a4211c2b1912b39dc28e4c7bdef71724298b96"
@@ -1489,14 +1476,14 @@
     rebass "^3.1.1"
     styled-system "^5.0.16"
 
-"@undataforum/gatsby-theme-base@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-base/-/gatsby-theme-base-0.5.0.tgz#3ec7d226ed9ff0e552786440dc16be52caa5090d"
-  integrity sha512-HFYJ/f28OVC7dNdvwCIkFcRmooFk0RJIc7eaaQSAvV/uJWC4i3UD6wg3sl06ihAtrHpatZw3msSSsfgyPVeBGw==
+"@undataforum/gatsby-theme-base@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-base/-/gatsby-theme-base-0.6.0.tgz#00491c5d720621ac33cdc79b637a38d2628172a2"
+  integrity sha512-QSJGWz0JNLJ0VPjZDhO5XuzQKgxjc0p2B4vfGeyHCeUtyq3xeLa6dJIKQOMC9wMXCK6Sv9zuhmE0AcDTEo+xMQ==
   dependencies:
     "@mdx-js/mdx" "^1.1.0"
     "@mdx-js/react" "^1.0.27"
-    "@undataforum/components" "^0.40.0"
+    "@undataforum/components" "^0.42.0"
     gatsby-image "^2.2.9"
     gatsby-plugin-mdx "^1.0.33"
     gatsby-plugin-page-creator "^2.1.5"
@@ -1509,27 +1496,27 @@
     styled-components "^4.3.2"
     styled-system "^5.1.1"
 
-"@undataforum/gatsby-theme-blog@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-blog/-/gatsby-theme-blog-0.4.0.tgz#99bc5323a9444f23a47885185b82b675951e5e4b"
-  integrity sha512-wRYzn5rKypBo19lPSGceFeOCGVtQxNI+lJySmWh5YscZmWyI6R/Ah51Z7Ihc/ZZEcf97rYUR1NzXNjxdE+7usw==
+"@undataforum/gatsby-theme-blog@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-blog/-/gatsby-theme-blog-0.5.0.tgz#c31bf57698444fdcf63f69c5d5daa0be89b4b6be"
+  integrity sha512-uulRk9HMBaWwH5TQ766XM3vEqg/ozj/Oisg9AVaRBzr5UKZBEGi4jYgYfO8OR624QfdtGravaa5PZkluSg91Lw==
   dependencies:
-    "@undataforum/components" "^0.40.0"
-    "@undataforum/gatsby-theme-base" "^0.5.0"
-    "@undataforum/gatsby-theme-profiles" "^0.1.5"
+    "@undataforum/components" "^0.42.0"
+    "@undataforum/gatsby-theme-base" "^0.6.0"
+    "@undataforum/gatsby-theme-profiles" "^0.2.0"
     gatsby-image "^2.2.7"
     gatsby-source-filesystem "^2.1.6"
     prop-types "^15.7.2"
     remark "^11.0.1"
     strip-markdown "^3.1.0"
 
-"@undataforum/gatsby-theme-profiles@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-profiles/-/gatsby-theme-profiles-0.1.5.tgz#ca010a7ae8cd79baaf82e1c6524b844a2a2245d1"
-  integrity sha512-5GrklkdVoSuzgZfjLltfESDuTDvXjHNbsnQAHzTq2SXYC+tfHp/MRgFPz1gcVnsYdQm/4zSR056tjzfZKb44Ew==
+"@undataforum/gatsby-theme-profiles@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@undataforum/gatsby-theme-profiles/-/gatsby-theme-profiles-0.2.0.tgz#5c05f3c1957691bcc75d030a67977bdc468b8b1e"
+  integrity sha512-8BeLZ/oyNZZZkParYheN2bD9N+ESEl3xBZ5ZjtlApD+pg2j3HzLUMtUc3oJuXr/QIWAvuxD4GGMuiDpa+egvsw==
   dependencies:
-    "@undataforum/components" "^0.40.0"
-    "@undataforum/gatsby-theme-base" "^0.5.0"
+    "@undataforum/components" "^0.42.0"
+    "@undataforum/gatsby-theme-base" "^0.6.0"
     gatsby-image "^2.2.6"
     gatsby-plugin-sharp "^2.2.6"
     gatsby-source-filesystem "^2.1.4"
@@ -5044,9 +5031,9 @@ eslint@^5.16.0:
     text-table "^0.2.0"
 
 eslint@^6.2.1:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.2.2.tgz#03298280e7750d81fcd31431f3d333e43d93f24f"
-  integrity sha512-mf0elOkxHbdyGX1IJEUsNBzCDdyoUgljF3rRlgfyYh0pwGnreLc0jjD6ZuleOibjmnUWZLY2eXwSooeOgGJ2jw==
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.3.0.tgz#1f1a902f67bfd4c354e7288b81e40654d927eb6a"
+  integrity sha512-ZvZTKaqDue+N8Y9g0kp6UPZtS4FSY3qARxBs7p4f0H0iof381XHduqVerFWtK8DPtKmemqbqCFENWSQgPR/Gow==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
